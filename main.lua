@@ -15,13 +15,11 @@ end
 
 function love.keypressed(key)
 	if key == "escape"
-	or key == "return" then
-	
+	or key == "return" then	
 		love.event.push("quit")
 	end
 	
-	if key == "tab"	or key == "c" then
-	
+	if key == "tab"	or key == "c" then	
 		comet:new()
 	end
 end
